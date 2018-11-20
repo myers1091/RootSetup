@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import re
-fname = "setuproot.txt"
+fname = "RootSetup/setuproot.txt"
 myfile = open(fname,"r")
 for line in myfile:
 	if re.search("recommended",line):

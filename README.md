@@ -1,3 +1,5 @@
 Use to setup recommended root release
-add alias is bashrc if you want
+add the following alias to .bashrc:
+alias setuproot='source RootSetup/setuproot.sh'
+
 use by "source setuproot.sh"
